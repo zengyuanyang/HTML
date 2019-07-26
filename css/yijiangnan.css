@@ -1,0 +1,12 @@
+/* CSS Document */
+#title{/*id选择器*/
+	text-align: center;
+	color: red;/*文字颜色*/
+		
+}
+.content{/*类选择器*/
+	color: aqua;
+}
+.til{
+	color: #D202FF;
+}

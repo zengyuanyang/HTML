@@ -1,0 +1,113 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>表格制作</title>
+<link href="../css/table.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+	<table id="table_1" border="0">
+		<tr>
+			<td rowspan="2" id="first_row">
+				<table align="center" cellspacing="0" border="0px" id="table_2" cellpadding="10px">
+					<tr><td class="juzhong til">文章管理</td></tr>
+					<tr><td class="juzhong"><li type="circle">新增文章</li></td></tr>
+					<tr><td class="juzhong"><li type="circle">安全退出</li></td></tr>
+					<tr><td class="juzhong til">会员管理</td></tr>
+					<tr><td class="juzhong"><li type="circle">修改密码</li></td></tr>
+					<tr><td class="juzhong"><li type="circle">安全退出</li></td></tr>
+					<tr><td class="juzhong til">系统设置</td></tr>
+					<tr><td class="juzhong"><li type="circle">修改密码</li></td></tr>
+					<tr><td class="juzhong"><li type="circle">安全退出</li></td></tr>
+					<tr><td class="juzhong til">版权信息</td></tr>
+					<tr><td class="juzhong">版权所有：曾远洋</td></tr>
+				</table>
+			</td>
+			<td>
+				<table border="1px" cellspacing="0" id="table_3">
+					<tr>
+						<td class="blue">CONFIGURATIONS</td>
+						<td class="blue">DUAL&nbsp;1.8GGHZ</td>
+						<td class="blue">DUAL&nbsp;2GHZ</td>
+						<td class="blue">DUAL&nbsp;2.5GHZ</td>
+					</tr>
+					<tr>
+						<td>M9454LL/A</td>
+						<td>M9455LL/A</td>
+						<td>M9457LL/A</td>
+						<td>M9457LL/A</td>
+					</tr>
+					<tr>
+						<td>Dual&nbsp;1.8GHZ&nbsp;pOWERpc&nbsp;G5</td>
+						<td>Dual&nbsp;2GH&nbsp;PowerPC&nbsp;G5</td>
+						<td>Dual&nbsp;2.5GHz&nbsp;PowerPC&nbsp;G5</td>
+						<td>M9457ll/A</td>
+					</tr>
+					<tr>
+						<td>900MHz&nbsp;per&nbsp;processor</td>
+						<td>1GHz&nbsp;PowerPC&nbsp;G5</td>
+						<td>Dual&nbsp;2.5GHz&nbsp;PowerPC&nbsp;G5</td>
+						<td>M9457ll/A</td>
+					</tr>
+					<tr>
+						<td>512K&nbsp;per&nbsp;processor</td>
+						<td>512K&nbsp;per&nbsp;processor</td>
+						<td>512K&nbsp;per&nbsp;processor</td>
+						<td>[修改][删除]</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table border="1px" cellspacing="0" width="100%">
+					<tr>
+						<td colspan="2" class="blue">添加文章</td>
+						
+					</tr>
+					<tr>
+						<td width="20%">是否置顶：</td>
+						<td>置顶<input type="checkbox"/></td>
+					</tr>
+					<tr>
+						<td>是否显示：</td>
+						<td>
+							显示<input checked type="radio" name="xianshi" value="0"/>
+							不显示<input type="radio" name="xianshi" value="1"/>
+						</td>
+					</tr>
+					<tr>
+						<td>文章分类：</td>
+						<td>
+							<select>
+								<option>作为一级栏目</option>
+								<option>作为二级栏目</option>
+								<option>作为三级栏目</option>
+								<option>作为四级栏目</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>文档标题：</td>
+						<td><input size="50" type="text"/></td>
+					</tr>
+					<tr>
+						<td>文档内容：</td>
+						<td><textarea cols="36" rows="5"></textarea></td>
+					</tr>
+					<tr>
+						<td>控制面板：</td>
+						<td>
+							<input id="queding" type="button" value="确定"/>
+							<input id="fanhui" type="button" value="返回"/>
+							<input id="jiance" type="button" value="检测"/>
+							<input id="shangchuan" type="button" value="上传"/>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>

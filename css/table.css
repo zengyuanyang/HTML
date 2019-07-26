@@ -1,0 +1,38 @@
+/* CSS Document */
+#first_row{
+	width: 20%;
+	background-color:#E0E0E0;
+}
+#table_1{
+	width: 100%;
+}
+#table_2{
+	width: 100%;
+}
+#table_3{
+	width: 100%;
+}
+.juzhong{
+	text-align: center;
+}
+.til{
+	background-color: aqua;
+}
+.blue{
+	background-color:#9BF0F5;
+}
+#queding{
+	background-color: blue;
+}
+#fanhui{
+	background-color: white;
+}
+#jiance{
+	background-color: greenyellow;
+}
+#shangchuan{
+	background-color: orange;
+}
+td{
+/*	text-align: center;*/
+}

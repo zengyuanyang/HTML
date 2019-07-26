@@ -6,16 +6,16 @@
 </head>
 	
 <body>
-	<form>
-		<fieldset>
+	<form name="msgform" action="#" method="post" enctype="application/x-www-form-urlencoded">
+		<fieldset style="width: 55%;margin: auto">
 			<legend>信息注册</legend>
-			用户名：<input type="text"/><br/>
-			密码：<input type="password"/><br/>
-			籍贯：<select>
-					<option>北京</option>
-					<option>四川</option>
-					<option>重庆</option>
-					<option>上海</option>
+			用户名：<input name="usename" type="text"/><br/>
+			密&nbsp;&nbsp;&nbsp;码：<input name="password" type="password"/><br/>
+			籍&nbsp;&nbsp;&nbsp;贯：<select>
+					<option value="1">北京</option>
+					<option value="2" selected>四川</option>
+					<option value="3">重庆</option>
+					<option value="4">上海</option>
 				 </select>
 				 <select>
 					<option>张家口</option>
@@ -29,10 +29,10 @@
 					<option>龙泉驿</option>
 					<option>成华区</option>
 				 </select><br/>
-			性别：<input checked type="radio" name="sex" value="男"/>男<input type="radio" name="sex" value="女"/>女<br/>
-			爱好：<input type="checkbox" name="aihao"/>打篮球<input type="checkbox" name="aihao"/>打游戏<input type="checkbox" name="aihao"/>逛街<input type="checkbox" name="aihao"/>抽烟，喝酒，烫头<br/>
-			请上传帅气的头像：<input type="file"/><br/>
-			介绍自己：<textarea></textarea><br/>
+			性&nbsp;&nbsp;&nbsp;别：<input checked type="radio" name="sex" value="男"/>男<input type="radio" name="sex" value="女"/>女<br/>
+			爱&nbsp;&nbsp;&nbsp;好：<input type="checkbox" name="aihao"/>打篮球<input checked type="checkbox" name="aihao"/>打游戏<input type="checkbox" name="aihao"/>逛街<input type="checkbox" name="aihao"/>抽烟，喝酒，烫头<br/>
+			请上传帅气的头像：<input value="123" type="file"/><br/>
+			介绍自己：<textarea cols="20" rows="5"></textarea><br/>
 			<input type="submit" value="提交表单" />
 			<input type="reset" value="重新填写" /><br/>
 			<input type="image"  alt=" " src="../images/button.jpg"/>
