@@ -1,0 +1,16 @@
+/* CSS Document */
+table{
+	border: 1px solid;
+}
+#one{
+	background-color: red;width: 100px;height: 100px;
+}
+#two{
+	background-color: blue;width: 100px;height: 200px;
+}
+#tree{
+	background-color: green;
+}
+#four{
+	background-color: greenyellow;
+}
