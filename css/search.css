@@ -1,0 +1,21 @@
+/* CSS Document */
+input{
+	background-image: url("../images/search.png");
+	background-repeat: no-repeat;
+	width: 200px;
+	height: 30px;
+	background-position: right;
+}
+a:link{
+	text-decoration-line: none;
+}
+div{
+	display: inline-block;
+	width: 70px;
+	height: 30px;
+	background-image: url("../images/shopping.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-color: #4CC13D;
+	border-radius: 5px;
+}
