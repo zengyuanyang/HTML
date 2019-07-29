@@ -1,0 +1,23 @@
+/* CSS Document */
+#div1{
+	border: solid 1px;
+	border-color:#D5D5D5;
+	border-top:solid 2px;
+	border-top-color: #FF820A;
+	width: 300px;
+	
+}
+#div2{
+	border-bottom: 1px;
+	height: 35px;
+	line-height: 35px;
+	padding-left: 30px;
+	border-bottom:solid 1px #D5D5D5;
+	font-size: 20px;
+}
+ul{
+	color: #FF820A;
+}
+font{
+	color: black;
+}

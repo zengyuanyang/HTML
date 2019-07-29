@@ -1,0 +1,21 @@
+/* CSS Document */
+#table2{
+	background-color:blue;
+}
+#table3{
+	background-color: green;
+}
+#table2 td{
+	width: 50px;
+	
+}
+
+.row1{
+	width:150px;
+}
+.row2{
+	width: 70px;
+}
+
+
+

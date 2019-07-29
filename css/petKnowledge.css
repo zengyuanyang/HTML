@@ -1,0 +1,30 @@
+/* CSS Document */
+#div1{
+	width: 320px;
+	border: solid 1px #317C21;
+	background-color: #97C549;
+}
+#div2{
+	width: 280px;
+	height: 30px;
+	line-height: 30px;
+	font-size: 25px;
+	padding-left: 10px;
+	border-left: solid 3px #C4E242;
+	margin-left: 20px;
+	background-color: #97C549;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+#div3{
+	width: 280px;
+	background-color: white;
+	margin-left: 20px;
+}
+a:link{
+	text-decoration: none;
+	color: #2786E8
+}
+hr{
+	width: 260px;
+}
