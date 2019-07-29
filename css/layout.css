@@ -1,0 +1,22 @@
+/* CSS Document */
+div{
+	border: solid 2px #FFFFFF;
+	background: #000000;
+}
+#header,#footer{
+	width: 1300px;
+	height: 60px;
+}
+#content{
+	width: 1000px;
+	height: 200px;
+	float: left;
+}
+#sidebar{
+	width: 296px;
+	height: 200px;
+	float: left;
+}
+#footer{
+	clear: left;
+}
