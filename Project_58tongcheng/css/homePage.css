@@ -1,0 +1,48 @@
+/* CSS Document */
+#top,#foot{
+	width: 100%;
+}
+#header,#content{
+	width: 78%;
+	margin-left: 11%;
+}
+#top{
+	font-size: 0;
+	height: 40px;
+	background-color: #E28384;
+}
+#top_left,#top_right{
+	display: inline-block;
+}
+#top_left{
+	margin-left: 11%;
+	width: 450px;
+	height: 100%;
+	background-color: #420CE2;
+}
+#top_right{
+	margin-left: 114.97px;
+	height: 100%;
+	width: 620px;
+	background-color: #05F92D;
+}
+#header{
+	height: 120px;
+	background-color: #5C6295;
+}
+#content{
+	height: 1000px;
+	background-color: #5CA84B;
+}
+#foot{
+	height: 200px;
+	background-color: #C4B44A;
+}
+#rightSideBar{
+	width: 50px;
+	height: 240px;
+	right: 0;
+	bottom: 45px;
+	position: fixed;
+	background-color: #2BC7A9;
+}
