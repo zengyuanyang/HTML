@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<script type="text/javascript">
+	window.onload = function(){
+		var arr = document.getElementsByClassName("test");
+//		for(var i = 0;i < arr.length;i++){
+//			var timer = setInterval(function(){
+//				arr[i].style.display = "inherit";
+//			},2000);
+//		}
+		var index = 0;
+		var timer = setInterval(function(){
+			if(index > 3){
+				index = 0;
+			}
+			arr[index].style.display = "inherit";
+			index++;
+			var i = index - 1;
+			arr[i].style.display = "none";
+		},2000)
+	}
+</script>
+</head>
+
+<body>
+	<div class="test" style="height: 30px;background-color: red;display:none;"></div>
+	<div class="test" style="height: 30px;background-color: green;display: none;"></div>
+	<div class="test" style="height: 30px;background-color: blue;display: none;"></div>
+	<div class="test" style="height: 30px;background-color: black;display: none;"></div>
+</body>
+</html>

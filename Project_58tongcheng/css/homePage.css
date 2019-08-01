@@ -1,42 +1,109 @@
 /* CSS Document */
+body{
+	margin: 0 auto;
+	font-size: 12px;
+	font-family:  Hiragino Sans GB;
+	background-color: #F8F8F8;
+}
+div{
+/*	border: solid 1px #000000;*/
+}
 #top,#foot{
 	width: 100%;
 }
 #header,#content{
-	width: 78%;
-	margin-left: 11%;
+	width: 62%;
+	margin:0 auto;
 }
 #top{
+	
+	height: 35px;
+	border-bottom: solid 1px #ddd;
+	line-height: 35px;
+	
+}
+#top_center{
 	font-size: 0;
-	height: 40px;
-	background-color: #E28384;
+	width: 62%;
+	height: 35px;
+	margin: 0 auto;
 }
 #top_left,#top_right{
 	display: inline-block;
+	font-size: 12px;
 }
 #top_left{
-	margin-left: 11%;
-	width: 450px;
+	float: left;
+	width: 40%;
 	height: 100%;
-	background-color: #420CE2;
+	
+}
+#weather{
+	margin-left: 10%;
+}
+#weather_img{
+	vertical-align:middle;
+	margin-top: -2px
+}
+#top_city{
+	font-size: 12px;
+	display: inline-block;
+	width: 24px;
+	margin: 0;
+	color: #ff552e;
+}
+#airQuality{
+	display: inline-block;
+	width: 16px;
+	height: 16px;
+	color: #FFFFFF;
+	background-color: #73d538;
+	border-radius: 3px;
+    vertical-align: middle;
+    line-height: 16px;
+    text-align: center;
+}
+.top_a{
+	color: #666;
+}
+.top_a:link{
+	text-decoration: none;
+}
+.top_a:hover{
+	color:#fb6f4f;
 }
 #top_right{
-	margin-left: 114.97px;
+	float: right;
 	height: 100%;
-	width: 620px;
-	background-color: #05F92D;
+	width: 50%;
+	
+}
+.top_right_div{
+	float: right;
+	display: inline-block;
+	height: 35px;
+	width: 16%;
+	line-height: 35px;
+	text-align: center;
+}
+.arrow{
+	display: inline-block;
+	background: url("../images/topbar_icons@2x.png") no-repeat -13px -473px;
+	width: 9px;
+	height: 5px;
+	margin-left: 5px;
 }
 #header{
 	height: 120px;
-	background-color: #5C6295;
+	
 }
 #content{
 	height: 1000px;
-	background-color: #5CA84B;
+	
 }
 #foot{
 	height: 200px;
-	background-color: #C4B44A;
+	
 }
 #rightSideBar{
 	width: 50px;
@@ -44,5 +111,5 @@
 	right: 0;
 	bottom: 45px;
 	position: fixed;
-	background-color: #2BC7A9;
+	
 }
