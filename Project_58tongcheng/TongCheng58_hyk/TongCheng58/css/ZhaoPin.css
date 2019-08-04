@@ -1,0 +1,156 @@
+@charset "utf-8";
+/* CSS Document */
+body{ margin:0px; padding:0px; outline:0px;}
+/*TOP样式*/
+/*地点*/
+.top{width:72%; position:relative;}
+.top .topLeft{ width:50%;font-size:12px; text-align:left; height:35px; display:inline-block;}
+.top .topLeft .sp1{color:#F00; display:inline-block; margin-top:10px;}
+.top .topLeft .a1{color:#999999;}
+.top .topLeft .a1:hover{ color:#F00;}
+a{ text-decoration:none;}
+.top .topLeft .sp2{ display:inline-block; position:absolute; margin-top:10px; margin-left:10px; color:#999999; padding-left:5px; padding-right:5px; height:35px;}
+.top .topLeft .sp2:hover{ color:#F93;}
+.top .topLeft .sp{ display:inline-block;}
+
+/*58APP*/
+.top .topLeft .sp3{ background:url(../images/topbar_icons.png)-8px -57px no-repeat; display:inline-block; overflow:hidden; height:17px;}
+.top .topLeft .sp4{ background:url(../images/topbar_icons.png) 18px -463px no-repeat; display:inline-block; overflow:hidden; height:17px;}
+.top .topLeft .sp2:hover .sp3{ background:url(../images/topbar_icons.png)-8px 0px no-repeat; cursor:pointer;}
+.top .topLeft .sp2:hover .sp4{ background:url(../images/topbar_icons.png)18px -406px no-repeat; cursor:pointer;}
+.top .topLeft .sp2:hover{ border-left:1px #CCC solid; border-right:1px #CCC solid;}
+.top .topLeft .sp2 .erweima{ color:#000; display:none; background:#FFF; border:1px #CCC solid; position:absolute; padding:20px 20px 10px 20px; top:25px;}
+.top .topLeft .sp2:hover .erweima{ display:block; margin-left:-6px; z-index:1;}
+/*58首页*/
+.top .topLeft .sp5{ background:url(../images/topbar_icons.png)-5px -174px no-repeat; display:inline-block; overflow:hidden; height:19px; position:relative; left:95px; top:5px;}
+.top .topLeft .sp5 a{ color:#000;}
+.top .topLeft .sp5:hover a{ color:#F93;}
+.top .topLeft .sp5:hover{ background:url(../images/topbar_icons.png) -5px -116px no-repeat;}
+/*这是一条分割线*/
+.hr1{ border:1px #999999 solid; margin:0px; }
+/*top右边*/
+.top .topRight{ width:52%;font-size:12px; text-align:right; height:35px; display:inline-block; margin:0px; line-height:35px; position:absolute; right:0px;}
+.top .topRight .sp5 #a2{ display:inline-block; margin-right:15px;}
+.top .topRight .sp6{ display:inline-block; background:url(../images/topbar_icons.png) 43px -453px no-repeat; margin-right:10px;}
+.top .topRight .sp5 a{ color:#999999;}
+.top .topRight .sp5 a:hover{ color:#F93;}
+.top .topRight .sp6 a{ color:#999999;}
+.top .topRight .sp6 a:hover{ color:#F93; background:url(../images/topbar_icons.png) 43px -405px no-repeat;}
+.top .topRight .list1,.list2,.list3{ color:#000; display:none; background:#FFF; border:1px #CCC solid; position:absolute; padding-right:16px; padding-left:16px; top:35px; margin-left:-1px; border-top:none;}
+.top .topRight #sp7 .list1 a{ color:#999999;}
+.top .topRight #sp7 .list1 a:hover{ color:#F93;}
+.top .topRight #sp8 .list2 a{ color:#999999;}
+.top .topRight #sp8 .list2 a:hover{ color:#F93;}
+.top .topRight #sp9 .list3 a{ color:#999999;}
+.top .topRight #sp9 .list3 a:hover{ color:#F93;}
+.top .topRight .sp5,#sp7,#sp8,#sp9{ display:inline-block; width:81px;}
+.top .topRight #sp6,#sp10{ display:inline-block; width:80px;}
+.top .topRight #sp7:hover,#sp8:hover,#sp9:hover{ border-left:1px #CCC solid; border-right:1px #CCC solid;}
+.top .topRight #sp7:hover .list1{ display:block; z-index:1;}
+.top .topRight #sp8:hover .list2{ display:block; z-index:1;}
+.top .topRight #sp9:hover .list3{ display:block; z-index:1;}
+
+/*第二层*/
+.second{ width:72%; margin-top:15px;text-align:right; position:relative;}
+.second .img{ display:inline-block; position:absolute; left:0px;}
+.second .div1{ text-align:center; display:inline-block; border:1px solid #ffb38c;width:199px; height:31px; padding-top:1px; margin-top:13px;background:url(../images/hl_bg.png) 0 -218px repeat-x;}
+.second .div1 .a1{ display:inline-block; width:97px; height:31px; color:#e50; line-height:31px; border-right:1px #ffb38c dashed;}
+.second .div1 .a2{ display:inline-block; width:96px; height:31px; color:#e50; line-height:31px;}
+.second .div1 .a1:hover,.a2:hover{ text-decoration:underline;}
+
+/*第三层*/
+.third{ width:72%; margin-top:15px; text-align:left; position:relative;}
+.third .line1{ border:1px #edeeef solid; border-bottom:2px #f97106 solid; outline:none; width:100%;}
+.third .line1 .sp1 a{ height:34px; line-height:34px; display:inline-block; padding:0 18px 0 18px; margin-left:-1px; color:#fff; background:#f97106;}
+.third .line1 .a1 a{ height:34px; line-height:34px; display:inline-block; padding:0 18px 0 18px; margin-left:-1px; color:#585858;}
+.third .line1 .a1{ border-right:1px #edeeef solid; }
+.third .line1 .img{ display:inline-block; width:324; height:22px; position:absolute; top:7px; right:2px;}
+.third .line2{ border:1px solid  #edeeef; width:100%; height:100px; border-top:none; line-height:100px;}
+.third .line2 .choice{ width:100%; height:32px; position:relative;}
+.third .line2 .choice .job1{ display:inline-block; width:169px; height:32px; line-height:32px; border:1px #CCC solid; padding-left:8px; margin-left:20px;}
+.third .line2 .choice .job2{ display:inline-block; width:169px; height:32px; line-height:32px; border:1px #CCC solid; padding-left:8px; margin-left:15px;}
+.third .line2 .choice .input1{ display:inline-block; width:300px; height:32px; line-height:32px; padding-left:15px; position:absolute; top:33px;}
+.third .line2 .choice .input2{ display:inline-block; width:380px; height:30px; padding-left:8px;}
+.third .line2 .choice .input3{ display:inline-block; width:100px; height:32px; line-height:32px; padding-left:70px; position:absolute; left:750px; top:33px;}
+.third .line2 .choice .input4{ display:inline-block; width:100px; height:32px; background:#f97106; color:#FFF; }
+.third .line2 .choice .search{ display:inline-block; height:32px; width:70px; margin-left:560px; position:relative;}
+.third .line2 .choice .search a{ text-decoration:none; display:inline-block; width:80px; height:30px; font-size:12px; color:#03F;}
+.third .line2 .choice .search a:hover{ color:#F00;}
+
+/*第四层*/
+.fourth{ width:72%; margin-top:15px; text-align:left; position:relative;}
+.fourth .div1{ width:100%;}
+.fourth .div1 .sp2{ position:absolute; right:0px;}
+
+/*第五层*/
+.fifth{ width:72%; margin-top:15px; position:relative; border:1px #CCC solid; font-size:14px;}
+.fifth .head{ background:#f5f5f5; height:32px; width:100%; line-height:32px;}
+.fifth .head .hbody{ width:95%; font-size:14px; text-align:left;}
+.fifth .body{ width:95%;}
+.fifth .body .div1{ width:100%; height:75px; display:inline-block;}
+.fifth .body .div1 .sp1{ display:inline-block; width:145px; height:52px; line-height:52px;}
+.fifth .body .div2 .sp2{ display:inline-block; width:145px; height:28px;}
+.fifth .body .div1 #hot1{ background:url(../images/hot.png) 44px 13px no-repeat;}
+.fifth .body .div1 #hot2{ background:url(../images/hot.png) 60px 13px no-repeat;}
+.fifth .body .div2 #hot1{ background:url(../images/hot.png) 43px -4px no-repeat;}
+.fifth .body .div2 #hot3{ background:url(../images/hot.png) 30px -4px no-repeat;}
+.fifth .body .div2 #hot4{ background:url(../images/hot.png) 64px -4px no-repeat;}
+.fifth .body .div1 #red a{ color:#F00;}
+.fifth .body .div2 #red a{ color:#F00;}
+.fifth .body a:hover{ color:#F00;}
+
+/*第六层*/
+.sixth{ width:72%; margin-top:10px; position:relative; border:1px #CCC solid; font-size:14px;}
+.sixth .head{ background:#f5f5f5; height:32px; width:100%; line-height:32px;}
+.sixth .head .hbody{ width:95%; font-size:14px; text-align:left;}
+.sixth .body{ width:95%;}
+.sixth .body .div1{ width:100%; display:inline-block; padding-top:18px;}
+.sixth .body .div1 .sp1{ display:inline-block; width:160px; height:28px;}
+.sixth .body .div1 .sp1 a:hover{ color:#F00;}
+
+/*第七层*/
+.seventh{ width:72%; margin-top:10px; position:relative; border:1px #CCC solid; font-size:14px;}
+.seventh .head{ background:#f5f5f5; height:32px; width:100%; line-height:32px; border-bottom:1px #CCC solid;}
+.seventh .head .hbody{ width:95%; font-size:14px; text-align:left;}
+.seventh .body{ width:100%; text-align:left;}
+.seventh .body #menu{ display:inline-block; width:199px; text-align:left; position:relative; background:#f5f5f5;}
+.seventh .body #menu div{ display:block; width:180px;height:42px; line-height:42px; padding-left:19px; font-size:14px;}
+.seventh .body #menu .menu{ background:url(../images/pt-job.png) 181px -312px no-repeat; border-top:1px #CCC solid; border-right:1px #CCC solid;} 
+.seventh .body #menu .menu:hover{ background:none; border-right:none; cursor:pointer; background:#FFF;}
+.seventh .body #child1,#child2,#child3,#child4,#child5,#child6,#child7,#child8,#child9,#child10,#child11{ display:inline-block; width:900px; position:absolute; top:50px; right:0px;}
+.seventh .body span{ display:inline-block; height:35px; margin:0 15px; line-height:35px;}
+.seventh .body span a{ color:#33F;}
+.seventh .body #child1 span a:hover{ color:#F00;}
+
+/*第八层*/
+.eighth{ width:72%; margin-top:10px; position:relative; font-size:12px; border-bottom:1px solid #CCC; padding-top:10px;}
+.eighth .text1{ color:#999; display:inline-block; height:30px; line-height:30px; padding-bottom:5px;}
+.eighth .text2{ color:#CCC; display:block; height:30px;}
+.eighth .text2 a{ color:#CCC;}
+.eighth .text2 a:hover{ color:#F00;}
+
+/*第九层*/
+.ninth{ width:72%; margin-top:10px; position:relative; font-size:12px; border-bottom:1px solid #CCC;}
+.ninth .text1{ color:#999; display:inline-block; height:30px; line-height:30px; width:100%; padding-bottom:5px;}
+.ninth .text2 .sp1{ display:inline-block; width:133px;height:30px;}
+.ninth .text2 a{ color:#CCC;}
+.ninth .text2 a:hover{ color:#F00;}
+
+/*第十层*/
+.tenth{ width:72%; margin-top:10px; position:relative; font-size:12px; border-bottom:1px solid #CCC;}
+.tenth .text1{ color:#999; display:inline-block; height:30px; line-height:30px; width:100%; padding-bottom:5px;}
+.tenth .text1 .sp1{ display:inline-block; width:80px; height:30px; position:absolute;}
+.tenth .text1 .sp2{ display:inline-block; margin-right:22px; height:30px;}
+.tenth .text1 #sp2{ margin-left:80px;}
+.tenth .text1 .sp2 a{ color:#CCC;}
+.tenth .text1 .sp2 a:hover{ color:#F00;}
+
+/*底部*/
+.bottom{ width:72%; margin-top:10px; position:relative; font-size:12px; border-bottom:1px solid #CCC;}
+.bottom .sp1{ display:inline-block; width:80px; font-size:12px; height:35px; line-height:35px;}
+.bottom .sp1 a{ color:#06F;}
+
+/*回到顶部*/
+.return{ position:absolute; right:10px; bottom:50px; display:inline-block;}
+.return .text{ display:none; width:92px; height:45px; line-height:45px; color:#FFF; background:#ff923a; position:absolute; right:45px; bottom:0px; text-align:center;}
+.return:hover .text{ display:inline-block;}

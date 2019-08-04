@@ -1,0 +1,73 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>58房产用户注册</title>
+<link rel="stylesheet" type="text/css" href="css/register.css"/>
+
+</head>
+
+<body style="margin:0px auto;"><!--让背景平铺body-->
+<!--插入图片-->
+<img class="bgimg" src="images/reg-bg.png" />
+<div class="logindiv"><!--整个注册界面的最大div-->
+<div class="onePart"><!--制作第一行-->
+<div class="leftSide"><!--左侧-->
+<a href="house.html">返回首页</a>
+</div><!--左侧结束-->
+
+<div class="rightSide"><!--右侧开始-->
+没有账号？去<a href="login.html">登录</a>
+</div><!--右侧结束-->
+</div><!--第一行结束-->
+
+<div class="twoPart"><!--第二部分注册框开始-->
+<div class="head"><!--head图片部分-->
+<img src="images/logo@2x.png" style="    height: 100%;" />
+</div>
+
+<div class="register"><!--第二大部分，剩下的输入框-->
+<form action="#" method="post" target="_self" class="form">
+<div  class="phone"><!--phone-->
+<input id="tele" type="text" placeholder="手机号" />
+<span  class="getCode">获取验证码</span>
+<span id="teleSpan"></span>
+</div><!--phone结束-->
+<div class="code"><!--动态码开始-->
+<input id="activeCode" type="text" placeholder="动态码" />
+<span id="activeCodeSpan"></span>
+</div><!--动态码结束-->
+<div class="user"><!--账户名开始-->
+<input id="userName" type="text" placeholder="账户名" />
+<span id="userNameSpan"></span>
+</div><!--账户名结束-->
+<div class="psw"><!--设置密码-->
+<input id="pass" type="password" placeholder="设置登录密码" />
+<span id="passSpan"></span>
+</div><!--密码结束-->
+<div class="psws"><!--确认密码-->
+<input id="surepsw" type="password" placeholder="确认密码" />
+<span id="surepswSpan"></span>
+</div><!--确认密码结束-->
+<div class="agree"><!--用户协议-->
+注册即同意<a href="javaScript:void(0)"> 《58同城使用协议》</a>&amp;<a href="javaScript:void(0)">《隐私政策》</a>
+</div><!--用户协议结束-->
+<div class="btns"><!--注册按钮-->
+<input type="submit" value="注册" />
+</div><!--注册按钮结束-->
+<div class="reset"><!--重置表单-->
+<input type="reset" value="重置" />
+</div><!--充值结束-->
+</form><!--表单结束-->
+</div>
+</div><!--第二部分结束-->
+
+<!--底部-->
+<div class="threePart"><!--第三部分开始-->
+<span class="one">&copy;Mr.com</span><span><a href="javaScript:void(0)">联系客服</a></span><span class="three"><a href="javaScript:void(0)">帮助</a></span>
+</div><!--第三部分结束-->
+</div><!--注册最大div结束-->
+
+</body>
+<script src="js/register.js" type="text/javascript"></script>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>欢迎登录58房产</title>
+
+</head>
+
+<body style="margin:0px auto;"><!--让背景平铺body-->
+<!--插入图片-->
+<img class="bgimg" src="images/reg-bg.png" />
+<div class="logindiv"><!--整个登录界面的最大div-->
+<div class="onePart"><!--制作第一行-->
+<div class="leftSide"><!--左侧-->
+<a href="house.html">返回首页</a>
+</div><!--左侧结束-->
+
+<div class="rightSide"><!--右侧开始-->
+没有账号？去<a href="register.html">注册</a>
+</div><!--右侧结束-->
+</div><!--第一行结束-->
+
+<div class="box"><!--登录框-->
+<div class="first"><!--第一行开始-->
+<div class="right"><!--右侧-->
+<span>扫码登录</span>
+<img src="images/erweima@2x.png"/>
+</div><!--右侧结束-->
+<!--插入标志图片-->
+<img class="logos" src="images/logo@2x.png" />
+</div><!--第一行结束-->
+
+<div class="rest"><!--除了头(first)剩下的-->
+
+<div class="second"><!--第二行开始-->
+<div id="userAndPsw" class="loginById">账户密码登录</div><!--账号密码结束-->
+<div id="loginPhone" class="loginByPhone">手机动态码登录</div><!--动态码结束-->
+</div><!--第二行结束-->
+<div id="loginId_son" class="changeInput"><!--输入框开始（可以便的部分）-->
+<label for="txt" class="userLabel">用户名：</label><input id="userNames" class="userName" type="text"  name="userName" placeholder="请输入用户名" /><br />
+<span id="userNamesSpan" class="alarm1"></span>
+<label for="pass" class="pswLabel">密&nbsp;&nbsp;&nbsp;码：</label><input id="pass" class="psw" type="password" placeholder="请输入密码" name="psw" /><br />
+<span id="passSpan" class="alarm2"></span>
+<div class="forget"><a href="javaScript:void(0)">忘记密码</a></div>
+</div><!--输入框结束-->
+<!--账号密码登录结束-->
+
+<!--手机动态码登录开始-->
+<div id="loginPhone_son" class="phone"><!--手机开始-->
+<div class="number"><!--手机号开始-->
+<font>手机号：</font>
+<input id="tele" type="text" placeholder="手机号" />
+<span class="getCode">获取动态码</span>
+<span id="teleSpan"><!--js显示--></span>
+</div><!--手机号结束-->
+<div class="code"><!--动态码框开始-->
+<font>动态码：</font>
+<input id="activeCode" type="text" placeholder="动态码" />
+<span id="activeCodeSpan"><!--js显示--></span>
+</div><!--动态码框结束-->
+</div><!--手机动态码登录结束-->
+<div class="loginbtn"><!--登录-->
+<button class="btn">登录</button>
+</div>
+<div class="agree"><!--登录58协议-->
+登录即同意<a href="javaScript:void(0)">《58同城使用协议》</a>&amp;<a href="javaScript:void(0)">《隐私政策》</a>
+</div><!--协议结束-->
+
+<div class="other"><!--其他登录方式-->
+<a class="qq" href="https://graph.qq.com/oauth2.0/show?which=Login&display=pc&autoLogin=0&response_type=code&client_id=200065&scope=get_user_info,get_qq_level,get_info,list_album,get_fanslist&state=BI_gEb28wsfSUPPfyYC4BPra3DqiiifZ&redirect_uri=https%3A%2F%2Fpassport.58.com%2Fthd%2Foauthlogin%2Fpc%2Fqzone%3Fpath%3Dhttps%253A%252F%252Fcd.58.com%252F%253Fpts%253D1564888231602%26source%3D58-default-pc"><img src="images/qq@2x.png" alt="QQ登录" />QQ登录</a>
+<a class="weixin" href="javaScript:void(0)"><img src="images/weixin@2x.png" alt="微信登录" />微信登录</a>
+<a class="weibo" href="javaScript:void(0)"><img src="images/weibo@2x.png" alt="微博登录" />微博登录</a>
+
+</div><!--其他登录方式结束-->
+</div><!--除了头剩下的输入框结束-->
+</div><!--登录框结束-->
+
+<div class="threePart"><!--第三部分开始-->
+<span class="one">&copy;Mr.com</span><span><a href="javaScript:void(0)">联系客服</a></span><span class="three"><a href="javaScript:void(0)">帮助</a></span>
+</div><!--第三部分结束-->
+</div><!--登录界面结束-->
+</body>
+<link rel="stylesheet" type="text/css" href="css/login.css" />
+<script type="text/javascript" src="js/login2.js"></script>
+</html>

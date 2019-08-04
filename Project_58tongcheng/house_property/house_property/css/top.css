@@ -1,0 +1,93 @@
+/* CSS Document */
+/*铺满*/
+body{margin:0 auto;}
+/*设置top整体*/
+.top{font: 12px/1.2 Hiragino Sans GB,Microsoft YaHei,"\5FAE\8F6F\96C5\9ED1",arial,Tahoma,SimSun,"sans-serif";text-rendering: geometricPrecision;-webkit-font-smoothing: antialiased;position: relative;z-index: 999;width: 100%;height: 35px;line-height: 35px;background: #fff;color: #555;border-bottom: 1px solid #ddd;    min-width: 1190px;}
+.top div{display: block;}
+/*设置左侧*/
+.top .left{float: left;word-spacing: 1px;height: 35px;line-height: 35px;   margin: 0; padding: 0;}
+
+a{text-decoration:none;}
+.top .left h2{display: inline;font-size: 12px;color: #ff552e;float: left;line-height: 35px;font-weight: 700;
+}
+.top .left{position: relative;left: 436px;top: -12px;width: 500px;height: auto;}
+.top .left .switchCity{position: relative;left: -76px;top: 9px;}
+.top .left .switchCity a{font-size:13px;color:#555;}
+
+.top .left .switchCity a:hover{color:red;}
+
+/*手机*/
+.top .left .QRcode{font-size:14px;}
+.top .left .QRcode a{position: relative;left: 12px;top:0px;color: #666;}
+.top .left .QRcode .arrow{background:url(../images/topbar_icons.png) no-repeat -10px -470px;display: block;position: absolute;width: 7px;height: 4px;overflow: hidden;right: 0;top: 16px;}
+.top .left .haschild{background:url(../images/topbar_icons.png) no-repeat;    line-height: 35px;    z-index: 999;position: relative;padding: 0 24px 0 14px;border: 1px solid #fff;border-top: none;border-bottom: none;float: left;left: 80px;top: 20px;padding: 0 22px 0 28px;background-position: 1px -48px;z-index: 999;position: relative;padding: 0 24px 0 14px;border: 1px solid #fff;
+border-top-color: rgb(255, 255, 255);border-top-style: solid;border-top-width: 1px;border-bottom-color: rgb(255, 255, 255);border-bottom-style: solid; border-bottom-width: 1px;border-top: none;border-bottom: none;width: 43px;height: 30px;top: 9px;}
+.top .left .haschild a:hover{color:red;}
+/*58首页*/
+.top .left .home{background:url(../images/topbar_icons.png) no-repeat 0 -164px;float: left;padding: 0 10px 0 28px;line-height: 35px;position: absolute;left: 197px;top:10px;}
+.top .left .home strong a{color:#333;}
+.top .left .home strong a:hover{color:red;}
+/*设置58二维码*/
+.top .left .erweima{position: relative;left: -25px;width: 120px;text-align: center;background: white; display:none;}
+.top .left .haschild:hover .erweima{display:block;}
+
+.top .left .haschild .haha{display:none;}
+.top .left .haschild:hover .haha{display:block;}
+/*左侧设置结束*/
+
+
+
+/*右侧开始*/
+/*改变右侧a标签颜色*/
+.top .right font span a{color:#666;}
+.top .right font span a:hover{color:red;}
+.top .right{width: 63%;height: 37px;line-height: 36px;position: relative;left: 400px;color:#666;font-size:12px;position: relative;top: 0px;left: 626px;}
+.top .right font{margin-left:16px; }
+.top .right .one{margin-left: 8px;background: url(images/topbar_icons.png)no-repeat -10px -470px;display: block;position: absolute;width: 7px;height: 4px;overflow: hidden;right: 294px;top: 17px;}
+.top .right font{cursor:pointer;}
+/*设置hover的弹出li框*/
+.top .list ul li{ list-style:none;}
+/*设置li中的字体*/
+.top .list ul li{font-size: 13px;color: #666;line-height: 32px;}
+.top .list {}
+.top .list .oneList{border: 1px solid #E1E1E2;width: 4%;text-align: center;position: fixed;padding-left: 0px;left: 1211px;top: -15px;padding-top: 40px;}
+
+/*设置不显示*/
+.top .list ul{ display:none;}
+/*设置伪类 显.top .right .personal:hover{color:red;}示*/
+.top .right .personal:link{}
+
+.top .right .personal:hover .oneList{display:block;}
+
+/*hover控制显示*/
+.top .right ul li{font-size: 13px;color: #666;line-height: 32px;list-style:none;}
+.top .right .personal .oneList li{list-style:none;}
+.top .right .personal .oneList{ display:none;}
+.top .right .personal:hover .oneList{display:block;}
+.top .right .personal:hover{color:red;}
+.top .right .personal .oneList{border: 1px solid #E1E1E2;width: 6%;text-align: center;position: absolute;padding-left: 0px;left:48%;top: -34%;padding-top: 40px;float:left;}
+.top .right .personal ul .lis:hover{color:red;}
+/*第一个hover设置结束*/
+/*第二个开始*/
+.top .right .bargain ul .lis:hover{color:#333;font-weight:bold;}
+.top .right .bargain .twoList{border: 1px solid #E1E1E2;width: 4%;text-align: center;position: fixed;padding-left: 0px;left: 1290px;top: -15px;padding-top: 40px; display:none;}/*设置li样式不显示等等*/
+.top .right .bargain:hover{color:red;}
+.top .right .bargain:hover .twoList{display:block;}
+.top .right .bargain .twoList .lis:hover{}
+/*第二个表hover结束*/
+
+/*第三个表开始*/
+.top .right .help .threeList{width: 9%;text-align: left;position: fixed;left: 1370px;top: -12px;padding-top: 39px;letter-spacing: 3px;padding-left: 13px;border-left: 1px solid #e1e1e2;display:none;}
+.top .right .help:hover{color:red;}
+.top .right .help .threeList hr{width: 107%;position: relative;left: -13px;border: 1px solid #E1E1E2;}
+.top .right .help:hover .threeList{display:block;}
+.top .right .help:hover .threeList:hover .lis{ display:block;}
+.top .right .help ul .lis:hover{color:red;}{color:red;}
+/*第三个表结束*/
+
+/*网站导航开始*/
+.top .right .web:hover{color:red;}
+.top .right .web .fourList{border: 1px solid #E1E1E2;width: 4%;text-align: center;position: fixed;padding-left: 0px;left: 1531px;top: -15px;padding-top: 40px; display:none;}
+.top .right .web:hover .fourList{ display:block;}
+.top .right .web ul .lis:hover{color:red;}
+

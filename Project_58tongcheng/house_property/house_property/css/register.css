@@ -1,0 +1,47 @@
+/* CSS Document */
+/*设置背景图片*/
+.bgimg{position: absolute;width: 100%;height: 100%;top: 0;left: 0;}
+/*设置第一部分样式*/
+/*左侧*/
+.logindiv .onePart .leftSide a{text-decoration:none;float: left;color: #f6f6f6;font: 12px/1.2 "Hiragino Sans GB","Microsoft YaHei","微软雅黑",arial,Tahoma,SimSun,sans-serif;}
+.logindiv .onePart{width:480px; height:16px; text-align:center;}
+.logindiv .onePart .leftSide a{position: absolute;left: 801px;top: 40px;}
+/*右侧*/
+.logindiv .onePart .rightSide{float:right;color:#f6f6f6;position: relative;font-size: 12px;left: 796px;top: 40px;}
+.logindiv .onePart .rightSide a{text-decoration:none;float: right;color: #f6f6f6;font: 12px/1.2 "Hiragino Sans GB","Microsoft YaHei","微软雅黑",arial,Tahoma,SimSun,sans-serif;padding-top: 1px;}
+
+/*设置登录盒子*/
+.logindiv .box{background:white;height: 625px;width: 480px;position: relative;left: 800px;top: 52px;border-radius: 4px;}
+.logindiv .box .first{height: 36px;padding-top: 62px;width: 100%;position: relative;text-align: center;}
+
+/*设置第二部分*/
+/*设置头部*/
+.logindiv .twoPart{padding-top: 42px;padding-bottom: 20px;width: 480px;text-align: center;position: relative;height: 500px;left: 799px;background: white;top: 53px; border-radius:4px;}
+.logindiv .twoPart .head{height: 36px;padding-top: 26px;padding-bottom: 20px;width: 100%;position: relative;text-align: center;margin-top: -25px;}
+/*设置表单*/
+.logindiv .twoPart .register{width: 350px;margin: 20px auto;position: relative;}
+.logindiv .twoPart .register .form .phone .getCode{    position: absolute;top: 8px;*top: 11px;right: 8px;height: 26px;color: #999;font-size: 12px;line-height: 26px;background: #eee;border-radius: 2px;padding: 0 10px;cursor: pointer;
+}
+.logindiv .twoPart .register .form div input{-webkit-writing-mode: horizontal-t!important;text-rendering: auto;color: initial;letter-spacing: normal;word-spacing: normal;text-transform: none;text-indent: 0px;text-shadow: none;display: inline-block; text-align: start;-webkit-appearance: textfield;background-color: white;-webkit-rtl-ordering: logical;cursor: text;margin: 0em;font: 400 13.3333px Arial;padding: 1px 0px;border-width: 2px;border-style: inset;border-color: initial;border-image: initial;    width: 100%;height: 42px;box-sizing: border-box;outline: 0;border: 2px solid #ebebeb;text-indent: 15px;font-size: 14px;line-height: 42px;*margin-left: -15px;}
+.logindiv .twoPart .register .form .code{    width: 350px;margin: 20px auto;position: relative;}
+.logindiv .twoPart .register .form .code input{    width: 100%;height: 42px;box-sizing: border-box; outline: 0;border: 2px solid #ebebeb;text-indent: 15px;font-size: 14px;line-height: 42px;*margin-left: -15px;}
+.logindiv .twoPart .register .form .user{    width: 350px; margin: 20px auto;position: relative;}
+.logindiv .twoPart .register .form .user input{    width: 100%;height: 42px;box-sizing: border-box;outline: 0;border: 2px solid #ebebeb;text-indent: 15px;font-size: 14px;line-height: 42px;*margin-left: -15px;}
+.logindiv .twoPart .register .form .psw{    width: 350px;margin: 20px auto;position: relative;}
+.logindiv .twoPart .register .form .psw input{    width: 100%;height: 42px;box-sizing: border-box;outline: 0;border: 2px solid #ebebeb;text-indent: 15px; font-size: 14px;line-height: 42px; *margin-left: -15px;}
+.logindiv .twoPart .register .form .psws{    width: 350px;margin: 20px auto;position: relative;}
+.logindiv .twoPart .register .form .psws input{width: 100%;height: 42px;box-sizing: border-box; outline: 0;border: 2px solid #ebebeb;text-indent: 15px;font-size: 14px;line-height: 42px;*margin-left: -15px;}
+.logindiv .twoPart .register .form .btns input{width: 100%;height: 42px;outline: 0;border: 0;background: #ff552e;color: #fff;cursor: pointer;}
+.logindiv .twoPart .register .form .agree{    font-size: 14px;text-align: center;margin-top: 20px;margin-bottom: 20px;color: #999;}
+.logindiv .twoPart .register .form .agree a {color: #ff553e;text-decoration: none;}
+.logindiv .twoPart .register .form .btns input{text-align:center;}
+
+
+/*设置第二部分结束*/
+
+/*设置第三部分*/
+.logindiv .threePart{position: relative;width: 480px;left: 800px;top:85px; text-align:center;}
+.logindiv .threePart span{ color:#f6f6f6; font-size:12px;letter-spacing: 1px;}
+.logindiv .threePart span a{ text-decoration:none; color:#f6f6f6; font-size:12px;}
+.logindiv .threePart .one{position: relative;left: -70px;}
+.logindiv .threePart .three{position: relative;left: 70px;}

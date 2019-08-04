@@ -1,0 +1,87 @@
+/*设置背景图片*/
+.bgimg{position: absolute;width: 100%;height: 100%;top: 0;left: 0;}
+/*设置第一部分样式*/
+/*左侧*/
+.logindiv .onePart .leftSide a{text-decoration:none;float: left;color: #f6f6f6;font: 12px/1.2 "Hiragino Sans GB","Microsoft YaHei","微软雅黑",arial,Tahoma,SimSun,sans-serif;}
+.logindiv .onePart{width:480px; height:16px; text-align:center;}
+.logindiv .onePart .leftSide a{position: absolute;left: 801px;top: 40px;}
+/*右侧*/
+.logindiv .onePart .rightSide{float:right;color:#f6f6f6;position: relative;font-size: 12px;left: 796px;top: 40px;}
+.logindiv .onePart .rightSide a{text-decoration:none;float: right;color: #f6f6f6;font: 12px/1.2 "Hiragino Sans GB","Microsoft YaHei","微软雅黑",arial,Tahoma,SimSun,sans-serif;padding-top: 1px;}
+
+/*设置登录盒子*/
+.logindiv .box{background:white;height: 625px;width: 480px;position: relative;left: 800px;top: 52px;border-radius: 4px;}
+.logindiv .box .first{height: 36px;padding-top: 62px;width: 100%;position: relative;text-align: center;}
+/*设置盒子第一部分*/
+.logindiv .box .first{position: absolute;right: 0;top: 12px;display: block;text-align: center;}
+.logindiv .box .first .right{position: relative;left: 332px;height: 54px;width: 31%;top: -62px;}
+.logindiv .box .first .right span{cursor: pointer; color: #ff8c14;font-size: 12px;line-height: 25px;text-align: center;float: left;width: 73px;height: 25px;}
+.logindiv .box .first .right img{    cursor: pointer;width: 50px;height: 50px;float: left;margin: 0 12px;}
+.logindiv .box .first .logos{height: 38px;padding-top: 62px;position: relative;text-align: center;top: -118px;}
+
+
+
+
+/*设置表单部分*/
+.logindiv .box .rest{position: relative;top: 150px;left: 44px;width: 400px;}
+.logindiv .box .rest .second div{cursor: pointer;float: left;width: 175px;color: #666;font-size: 16px;line-height: 66px;border-bottom: 1px solid #ebebeb;}
+.logindiv .box .rest .second{position: relative;width: 400px;height: 70px;top: -23px;left: 32px;text-align: center;;}
+.logindiv .box .rest .second div:hover{color:#ff552e;border-bottom:1px solid #ff552e;}
+/*设置手机和账号登录的active*/
+.logindiv .box .rest .second .loginById:active {}
+
+/*设置input*/
+/*
+.logindiv .box .rest .changeInput{    -webkit-writing-mode: horizontal-tb !important;text-rendering: auto;color: initial;letter-spacing: normal;word-spacing: normal;text-transform: none; text-indent: 0px;text-shadow: none;display: inline-block;text-align: start;-webkit-appearance: textfield;background-color: white;-webkit-rtl-ordering: logical;cursor: text;margin: 0em;font: 400 13.3333px Arial;padding: 1px 0px;border-width: 2px;border-style: inset; border-color: initial;border-image: initial;}*/
+.logindiv .box .rest .changeInput .userName{    border: 2px solid rgb(235, 235, 235);width: 100%; height: 42px;box-sizing: border-box;outline: 0; border: 2px solid #ebebeb;text-indent: 15px;font-size: 14px;line-height: 42px;\*margin-left: -15px;
+}
+.logindiv .box .rest .changeInput .psw{width: 100%;height: 42px;box-sizing: border-box;outline: 0;border: 2px solid #ebebeb;text-indent: 15px;font-size: 14px;line-height: 42px;*margin-left: -15px;position: relative;top: 39px;}
+.logindiv .box .rest .changeInput .userLabel{position: relative;left: 1px;color: #666;top: -8px;font-size: 17px;}
+.logindiv .box .rest .changeInput .pswLabel{position: relative;top: 33px;font-size: 17px;color: #666;left: 5px;}
+.logindiv .box .rest .changeInput{height: 178px;padding-top: 16px;margin-top: -9px;}
+.logindiv .box .rest .changeInput .forget{position: relative;top: 63px;left: 343px;width: 66px;font-size: 14px;}
+.logindiv .box .rest .changeInput .forget a{text-decoration: none;color: #888;}
+.logindiv .box .rest .changeInput .alarm2{position: absolute;top: 247px;left: 5px;font-size: 14px;}
+.logindiv .box .rest .changeInput .alarm1{font-size: 14px;position: absolute;left: 5px;}
+/*设置display:none*/
+.logindiv .box .rest .changeInput{}
+/*账号密码登录部分结束*/
+/*手机短信登录部分*/
+.logindiv .box .rest .phone{height: 180px;width: 400px;top: -20px;position: relative;}
+.logindiv .box .rest .phone .number{width: 350px;margin: 20px auto;position: relative;   }
+.logindiv .box .rest .phone .number input{  width: 100%;height: 42px;box-sizing: border-box;outline: 0;border: 2px solid #ebebeb;text-indent: 15px;font-size: 14px;line-height: 42px;*margin-left: -15px;-webkit-writing-mode: horizontal-tb !important;text-rendering: auto;color: initial;letter-spacing: normal;word-spacing: normal;text-transform: none;text-indent: 0px; text-shadow: none;display: inline-block;text-align: start; -webkit-appearance: textfield; background-color: white; -webkit-rtl-ordering: logical;cursor: text;margin: 0em;font: 400 13.3333px Arial;padding: 1px 0px;border-width: 2px; border-style: solid;border-image: initial; padding-left: 14px; }
+.logindiv .box .rest .phone .number .getCode{    position: absolute;top: 39px;right: 8px; height: 26px;color: #999; font-size: 12px;line-height: 26px;background: #eee;border-radius: 2px;padding: 0 10px;cursor: pointer;}
+.logindiv .box .rest .phone .code{width: 350px;margin: 20px auto;position: relative;position: relative;top: 10px;}
+.logindiv .box .rest .phone .code input{ width: 100%; height: 42px;box-sizing: border-box;outline: 0;border: 2px solid #ebebeb;text-indent: 15px;font-size: 14px;line-height: 42px;*margin-left: -15px;}
+.logindiv .box .rest .phone .number font{line-height: 31px;
+font-size: 16px;
+color: #555;}
+.logindiv .box .rest .phone .code font{line-height: 31px;
+font-size: 16px;
+color: #555;}
+/*设置不显示*/
+.logindiv .box .phone{display:none;}
+
+
+
+/*设置登录按钮*/
+.logindiv .box .rest .loginbtn{position: relative;top: 38px;text-align: center;}
+.logindiv .box .rest .loginbtn .btn{-webkit-appearance: button;-webkit-writing-mode: horizontal-tb !important;text-rendering: auto;color: buttontext;letter-spacing: normal;word-spacing: normal;text-transform: none;text-indent: 0px;text-shadow: none;display: inline-block;text-align: center;align-items: flex-start;cursor: default;background-color: buttonface;box-sizing: border-box;margin: 0em;font: 400 13.3333px Arial;padding: 1px 6px;border-width: 2px;border-style: outset;border-color: buttonface;border-image: initial;width: 90%;height: 42px;outline: 0;border: 0;background: #ff552e;color: rgba(255,255,255,.5);color: #fff\9;cursor: pointer;}
+/*设置协议*/
+.logindiv .box .rest .agree{position: relative;font-size: 14px;text-align: center;margin-top: 60px;color: #999;}
+.logindiv .box .rest .agree a{color: #ff553e;text-decoration: none;}
+/*设置其他登录方式*/
+.logindiv .box .rest .other{width: 350px;margin: 20px auto;position: relative;top: 10px;}
+.logindiv .box .rest .other a{text-align: left;float: left; width: 28%;*width: auto;font-size: 12px;line-height: 32px;color: #999;text-decoration: none;}
+.logindiv .box .rest .other img{width: 32px;height: 32px;float: left; margin: 0 12px 0 0;border: 0;}
+.logindiv .box .rest .other .weixin{margin: 0 8%;}
+
+
+/*设置第三部分*/
+.logindiv .threePart{position: relative;width: 480px;left: 800px;top:85px; text-align:center;}
+.logindiv .threePart span{ color:#f6f6f6; font-size:12px;letter-spacing: 1px;}
+.logindiv .threePart span a{ text-decoration:none; color:#f6f6f6; font-size:12px;}
+.logindiv .threePart .one{position: relative;left: -70px;}
+.logindiv .threePart .three{position: relative;left: 70px;}
+
+

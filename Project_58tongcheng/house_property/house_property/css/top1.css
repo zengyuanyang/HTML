@@ -1,0 +1,77 @@
+/* CSS Document */
+/*修改body和html的边距,使body的内容铺满*/
+body{margin:0 auto;}
+/*去掉所有a标签的下划线*/
+a{text-decoration:none;}
+.top .right font span a{color: #666;font-size: 12px;}
+/*设置背景字体*/
+.top{font-size:14px;width:100%;height:36px; border-bottom:1px solid #DDDDDD;}
+/*设置左侧样式*/
+.top .left{font-size: 13px;word-spacing: 1px;height: 35px;line-height: 35px;position: relative;left: 365px;float:left;width: 38%;}
+.top .left font{margin-left:10px;}
+/*修改特殊字体*/
+/*设置左侧*/
+#cdc{color: #FF552E;font-size: 14px;font-weight: bold;cursor:pointer;}
+#switch{color: #666;margin-left: 7px;}
+.top .left .phone{position: relative;left: 11px;top: 6px;}
+.top .left .app{font-size: 13px;color: #666; cursor:pointer;}
+.top .left .shouse{position: relative;left: 10px;top: 5px;}
+.top .left .shouye{color: #666;font-weight: bold; cursor:pointer;}
+.top .left .shouye a{color: #666;font-weight: bold;}
+.top .left .app a{font-size: 13px;color: #666;}
+
+.top .leftCode {position: absolute;left: 472px;top: 37px;display:none;}
+/*无法用hover: .top .left .app:hover .leftCode{display:none;}*/
+
+/*设置右边部分的top*/
+.top .right{width: 63%;height: 37px;line-height: 36px;position: relative;left: 400px;color:#666;font-size:12px;}
+.top .right font{margin-left:16px; }
+.top .right .one{margin-left: 8px;background: url(images/topbar_icons.png)no-repeat -10px -470px;display: block;position: absolute;width: 7px;height: 4px;overflow: hidden;right: 294px;top: 17px;}
+.top .right font{cursor:pointer;}
+/*设置hover的弹出li框*/
+.top .list ul li{ list-style:none;}
+/*设置li中的字体*/
+.top .list ul li{font-size: 13px;color: #666;line-height: 32px;}
+.top .list {}
+.top .list .oneList{border: 1px solid #E1E1E2;width: 4%;text-align: center;position: fixed;padding-left: 0px;left: 1211px;top: -15px;padding-top: 40px;}
+
+/*设置不显示*/
+.top .list ul{ display:none;}
+/*设置伪类 显.top .right .personal:hover{color:red;}示*/
+.top .right .personal:link{}
+
+.top .right .personal:hover .oneList{display:block;}
+
+/*hover控制显示*/
+.top .right ul li{font-size: 13px;color: #666;line-height: 32px;list-style:none;}
+.top .right .personal .oneList li{list-style:none;}
+.top .right .personal .oneList{ display:none;}
+.top .right .personal:hover .oneList{display:block;}
+.top .right .personal:hover{color:red;}
+.top .right .personal .oneList{border: 1px solid #E1E1E2;width: 6%;text-align: center;position: absolute;padding-left: 0px;left: 67%;top: -34%;padding-top: 40px;float:left;}
+.top .right .personal ul .lis:hover{color:red;}
+/*第一个hover设置结束*/
+/*第二个开始*/
+.top .right .bargain ul .lis:hover{color:red;}
+.top .right .bargain .twoList{border: 1px solid #E1E1E2;width: 4%;text-align: center;position: fixed;padding-left: 0px;left: 1290px;top: -15px;padding-top: 40px; display:none;}/*设置li样式不显示等等*/
+.top .right .bargain:hover{color:red;}
+.top .right .bargain:hover .twoList{display:block;}
+/*第二个表hover结束*/
+
+/*第三个表开始*/
+.top .right .help .threeList{width: 9%;text-align: left;position: fixed;left: 1370px;top: -12px;padding-top: 39px;letter-spacing: 3px;padding-left: 13px;border-left: 1px solid #e1e1e2;display:none;}
+.top .right .help:hover{color:red;}
+.top .right .help .threeList hr{width: 107%;position: relative;left: -13px;border: 1px solid #E1E1E2;}
+.top .right .help:hover .threeList{display:block;}
+.top .right .help:hover .threeList:hover .lis{ display:block;}
+.top .right .help ul .lis:hover{color:red;}{color:red;}
+/*第三个表结束*/
+
+/*网站导航开始*/
+.top .right .web:hover{color:red;}
+.top .right .web .fourList{border: 1px solid #E1E1E2;width: 4%;text-align: center;position: fixed;padding-left: 0px;left: 1531px;top: -15px;padding-top: 40px; display:none;}
+.top .right .web:hover .fourList{ display:block;}
+.top .right .web ul .lis:hover{color:red;}
+/*网站导航结束*/
+
+
