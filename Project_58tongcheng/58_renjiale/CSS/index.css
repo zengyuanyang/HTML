@@ -125,7 +125,8 @@ option:hover{background: #EBCCD1;}
 .car1{margin-top:10px;border-bottom:#999 1px solid}
 .car2{border-bottom:#CCC 1px solid}
 .cartime:hover{ cursor:pointer;color:#F00}
-.pager:hover{background:#F60;color:#FFF}
+.pager{background:#FFF;color:#000;}
+.pager:hover{display:inline-block;background:#F60;color:#FFF}
 
 
 
@@ -143,7 +144,7 @@ option:hover{background: #EBCCD1;}
 .d_blink{display:inline-block;position:absolute;top:-14px;width:75%;left:50px}
 .ad_news{font-size:14px;color:#333}
 .u_blink,.u_blink li{display:inline-block; font-size:14px;float:left;margin-left:10px}
-.u_blink{margin-left:50px}
+.u_blink{margin-left:50px;padding-top:15px}
 .footer{width:90%;height:145px;display:inline-block;paddint-top:10px;background:#eee}
 .footer1{font-size:14px;margin-top:10px}
 .footer .footer1 span{color:#eee}

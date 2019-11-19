@@ -16,7 +16,7 @@
 
 /*设置第二部分*/
 /*设置头部*/
-.logindiv .twoPart{padding-top: 42px;padding-bottom: 20px;width: 480px;text-align: center;position: relative;height: 500px;left: 799px;background: white;top: 53px; border-radius:4px;}
+.logindiv .twoPart{padding-top: 42px;padding-bottom: 20px;width: 480px;text-align: center;position: relative;height: auto;left: 799px;background: white;top: 53px; border-radius:4px;}
 .logindiv .twoPart .head{height: 36px;padding-top: 26px;padding-bottom: 20px;width: 100%;position: relative;text-align: center;margin-top: -25px;}
 /*设置表单*/
 .logindiv .twoPart .register{width: 350px;margin: 20px auto;position: relative;}
@@ -35,6 +35,14 @@
 .logindiv .twoPart .register .form .agree{    font-size: 14px;text-align: center;margin-top: 20px;margin-bottom: 20px;color: #999;}
 .logindiv .twoPart .register .form .agree a {color: #ff553e;text-decoration: none;}
 .logindiv .twoPart .register .form .btns input{text-align:center;}
+.logindiv .twoPart .register .form .reset{margin-top:10px;}
+.logindiv .twoPart .register .form .reset input{width: 100%;height: 42px;outline: 0;border: 0;background: #ff552e;color: #fff;cursor: pointer;text-align: center;}
+/*省城区*/
+.logindiv .twoPart .register .form .hometown{line-height: 31px;text-align: left;}
+.logindiv .twoPart .register .form .hometown font{color: #666;font-size: 15px;}
+.logindiv .twoPart .register .form .hometown select{width: 113px;height: 32px;text-align: center;border: 2px solid #EBEBEB;}
+
+
 
 
 /*设置第二部分结束*/
